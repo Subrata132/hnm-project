@@ -175,9 +175,41 @@
   </section>
 
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Impact of Hair Noise</h2>
+    <div class="content has-text-justified">
+      <!-- <p>
+        Augmented-reality (AR) and smart glasses are increasingly enabling users to 
+        capture and share immersive audio-visual experiences. However, their wearable form factor 
+        introduces a previously overlooked challenge: hair noise, caused by the wearer's hair 
+        brushing against device frames and microphones. This noise arises during everyday 
+        actions such as brushing, adjusting, or moving hair, as well as rapid head motions, 
+        and can significantly compromise audio quality and user experience.
+      </p> -->
+      <p>
+        Hair noise depends on several factors, including hair length and texture, user movement, 
+        microphone array design, and device fit. Unlike background noise such as conversations or 
+        traffic, hair noise originates from the wearer's own interactions with the device and occurs 
+        in close proximity to the microphones, often leading to severe degradations in signal quality. 
+        Recordings containing hair noise typically exhibit a mean SNR of approximately 8.5 dB for the 
+        wearer's speech, with subjective evaluations rating them from slightly annoying to clearly annoying.
+        In extreme cases, the SNR can drop to nearly 0 dB, severely diminishing intelligibility and overall quality.
+      </p>
+      <p>
+        This issue has also been noted in hearing aids, where users often resort to improvised hardware fixes. 
+        Yet, to the best of our knowledge, no prior work has systematically studied the acoustic characteristics 
+        of hair noise or explored machine-learning-based strategies for its mitigation.
+      </p>
+    </div>
+  </div>
+</section>
+```
+
+
   <section class="section">
     <div class="container is-max-desktop">
-      <h2 class="title is-3">Data Collection</h2>
+      <h2 class="title is-3">HNM Dataset</h2>
       <div class="columns is-multiline">
         <!-- Image 1 -->
         <div class="column is-4">
@@ -270,10 +302,9 @@
   </section>
 
 
-  <section class="section hero is-light">
+  <!-- <section class="section hero is-light">
     <div class="container is-max-desktop">
       <div class="columns is-vcentered">
-        <!-- Abstract Column -->
         <div class="column is-half">
           <h2 class="title is-3 has-text-centered">Main Results</h2>
           <div class="content has-text-justified">
@@ -291,7 +322,7 @@
           </div>
         </div>
 
-        <!-- Image Column -->
+
         <div class="column is-half">
           <div style="height: 100%; display: flex; flex-direction: column; align-items: stretch;">
             <img src="static/images/hnm/main_results.png" alt="Illustration" style="width: 100%; object-fit: contain;">
@@ -305,7 +336,7 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
 
 
   <footer class="footer">
